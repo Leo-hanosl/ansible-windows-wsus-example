@@ -1,7 +1,7 @@
 - name: check Windows Updates
   hosts: '*windows_target'
   vars:
-    wsus_server: 192.168.1.36
+    wsus_server: 172.172.172.2
     win_update_category_names:
       - CriticalUpdates
       - DefinitionUpdates
